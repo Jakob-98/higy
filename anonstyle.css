@@ -31,6 +31,19 @@ body {
   }
   
   main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
     padding: 20px;
     text-align: center;
   }
@@ -54,9 +67,3 @@ body {
     background-color: #3d9140;
   }
   
-  footer {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
